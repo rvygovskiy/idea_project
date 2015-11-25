@@ -28,6 +28,7 @@ public class Hello2 {
     public static void main(String[] args) {
 
         HelloWorld helloWorld = HelloWordFactory.createHelloWorld(getHelloWorldType(args));
+
         String message = getMessage(args);
 
         Hello2 service = new Hello2(message, helloWorld);
